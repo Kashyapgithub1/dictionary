@@ -1,0 +1,4 @@
+d = {"cat":"billi","dog":"kutta","pig":"sugar","cow":"gaaye"}
+print("Welcome to english to hindi dictionary!")
+i = input("enter the word you want to find: ")
+print(d.get(i))
